@@ -1,0 +1,111 @@
+
+
+/* Загальні стилі сторінки */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f0f7;
+    color: #222222;
+    line-height: 1.6;
+}
+
+/* Верхня частина сайту */
+header {
+    background-color: #241b35;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d9b8ff;
+}
+
+/* Основний контент */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #00000012;
+}
+
+h2 {
+    color: #6c3ca0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+section a {
+    color: #6c3ca0;
+    font-weight: bold;
+}
+
+section a:hover {
+    color: #a04ed1;
+}
+
+/* Нижня частина сайту */
+footer {
+    background-color: #241b35;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Відображення на мобільних пристроях */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
+
